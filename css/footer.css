@@ -27,7 +27,9 @@
   gap: 16px;
 }
 .footer-social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
   width: 40px;
   height: 40px;
@@ -39,12 +41,6 @@
   background-color: #31d0aa;
 }
 .footer-social-icons {
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #f4f4fd;
 }
 .footer-container {
